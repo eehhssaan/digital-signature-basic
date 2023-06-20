@@ -12,3 +12,5 @@ Generate a Private Key and Certificate:
     openssl genpkey -algorithm RSA -out private_key.pem
 3) Run the following command to generate a self-signed certificate:
     openssl req -new -x509 -key private_key.pem -out certificate.pem -days 365
+4) Move the files to the project folder/directory
+5) Remember to update files names (if needed)
